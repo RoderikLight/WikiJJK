@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('editors', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('mail');
             $table->timestamps();
         });
     }
