@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('image') -> default('Imagine a pending default url goes here i dont have it yet');
             $table->string('content') -> default('yet another pending default doc');
-            $table->boolean('IsCurated') -> default (false);      
+            $table->boolean('iscurated') -> default (false);      
             $table->timestamps();
             
         });
